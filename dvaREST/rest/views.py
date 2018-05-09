@@ -8,7 +8,7 @@ import zipfile
 
 @csrf_exempt
 def run_script(request):
-    with open("images.zip", "w") as f:
+    with open("images.zip", "wb") as f:
         for chunk in request.FILES["file"].chunks():
             f.write(chunk)
         f.close()
