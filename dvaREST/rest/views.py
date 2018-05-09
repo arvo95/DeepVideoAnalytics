@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 import subprocess
 from django.http import JsonResponse
-from django.views.decorators import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt
 import zipfile
 
 
