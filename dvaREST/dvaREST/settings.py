@@ -25,7 +25,7 @@ SECRET_KEY = '#g5vu$-hk22&@5b%be$x9)#f&(2hpzh8aqg$x6bi6%q=jir^-c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["dva-server"]
 
 
 # Application definition
